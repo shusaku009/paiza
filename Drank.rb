@@ -22,3 +22,20 @@ end
 x = gets.chomp
 y = x.split(' ')
 y.each { |y| puts y }
+
+# 入力される値
+# 1行目でNが与えらます。
+# 2行目でN個の文字列が半角スペース区切りで与えれます。
+
+# 入力値最終行の末尾に改行が１つ入ります。
+# 文字列は標準入力から渡されます。 標準入力からの値取得方法はこちらをご確認ください
+
+n = gets.to_i
+
+# 2行目の入力を文字列の配列として読み取る
+strings = gets.chomp.split(' ')
+
+# stringsの各文字列を一行ずつ出力
+strings.each do |str|
+  puts str
+end
