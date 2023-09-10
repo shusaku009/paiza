@@ -39,3 +39,14 @@ strings = gets.chomp.split(' ')
 strings.each do |str|
   puts str
 end
+
+# 入力される値
+# 3つの文字列がカンマ区切りで1行で与えれます。
+
+
+# 入力値最終行の末尾に改行が１つ入ります。
+# 文字列は標準入力から渡されます。 標準入力からの値取得方法はこちらをご確認ください
+
+x = gets.chomp
+y = x.split(',')
+y.each { |y| puts y }
