@@ -50,3 +50,17 @@ end
 x = gets.chomp
 y = x.split(',')
 y.each { |y| puts y }
+
+# 入力される値
+# 1行目でNが与えらます。
+# 2行目でN個の文字列がカンマ区切りで与えれます。
+
+# 入力値最終行の末尾に改行が１つ入ります。
+# 文字列は標準入力から渡されます。 標準入力からの値取得方法はこちらをご確認ください
+
+x = gets.to_i
+strings = gets.chomp.split(',')
+
+strings.each do |string|
+  puts string
+end
