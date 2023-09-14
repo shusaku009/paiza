@@ -64,3 +64,17 @@ strings = gets.chomp.split(',')
 strings.each do |string|
   puts string
 end
+
+# 問題
+# 整数 A = 437,326、 B = 9,085 とします。以下の二つの演算の結果を半角スペース区切りで出力してください。
+
+# 1. A を B で割った商
+# 2. A を B で割った余り
+x = 437326 / 9085
+y = 437326 % 9085
+
+puts "#{x} #{y}"
+
+# divmodメソッドを利用
+x, y = 437326.divmod(9085)
+puts "#{x} #{y}"
